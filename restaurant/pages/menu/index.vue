@@ -99,18 +99,18 @@ onMounted(async () => {
 
   &__container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
     gap: 20px;
     margin: 30px 0;
 
     @media #{$media-mobile} {
-      justify-content: center;
+      justify-content: flex-start;
     }
 
     @media #{$media-tablet} {
-      justify-content: center;
+      justify-content: flex-start;
     }
   }
 
